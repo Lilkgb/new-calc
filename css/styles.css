@@ -5,9 +5,17 @@
   background-color: purple
 }
 
-#background-img {
+body {
   background-image: url(../img/background.jpg);
-  padding-top: 200px
+  padding-top: 40px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+label {
+  background-color: white;
+}
+
+#answer {
+  display: none;
+  background-color: white;
 }
